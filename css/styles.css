@@ -1,0 +1,132 @@
+    /* палитра */
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый  #FFFFFF */
+/* прозрачный белый rgba(255, 255, 255, 0.6) */
+/* акцент #2196F3 */
+/* основной цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* акцент фон-темный #2F303A */
+:root{
+    --primary-text-color:#757575;
+    --secondary-text-color:#212121;
+    --white-text-color:#FFFFFF;
+    --transparent-text-color:rgba(255, 255, 255, 0.6);
+    --accent-color:#2196F3;
+    --primary-bgc-color:#FFFFFF;
+    --secondary-bgc-color:#F5F4FA;
+    --accent-bgc:#2F303A;
+    --btn-collor:#2196F3;
+    --btn-collor-secondary:#F5F4FA;
+}
+
+body{
+    color:var(--primary-text-color) ;
+    background-color:var(--primary-bgc-color);
+}
+.list{
+    list-style: none;
+}
+
+/* Site header */
+.logo{
+    color:var(--secondary-text-color) ;
+}
+.logo .web-logo{
+    color:var(--accent-color) ;
+}
+/* Site nav */
+.navigation-list .navigation-link{
+    color:var(--secondary-text-color);
+
+}
+.navigation-list .navigation-link:hover,
+.navigation-list .navigation-link:focus {
+    color: var(--accent-color);
+}
+.list .navigation-link.current{
+    color: var(--accent-color);
+}
+
+/* Contacts */
+.contacts .contact-link{
+    color: var(--primary-text-color);
+}
+.contacts .contact-link:hover, 
+.contacts .contact-link:focus{
+    color: var(--accent-color);
+}
+
+.contacts .contact-tel{
+    color:var(--primary-text-color);
+}
+.contacts .contact-tel:hover,
+.contacts .contact-tel:focus{
+    color: var(--accent-color);
+}
+/* Site Hero */
+.hero-title{
+    color:var(--white-text-color);
+}
+                                    /* Buttons */
+.button{
+
+}
+.button.primary{
+    color: var(--white-text-color);
+    background-color: var(--btn-collor);
+}
+.button.primary:hover,
+.button.primary:focus{
+    color: var(--secondary-text-color);
+    background-color: var(--btn-collor-secondary);
+}
+.button.secondary{
+    color: var(--secondary-text-color);
+    background-color: var(--btn-collor-secondary);
+}
+.button.secondary:hover,
+.button.secondary:focus{
+    color: var(--white-text-color);
+    background-color: var(--btn-collor);
+}
+
+/* Section */
+.section-title{
+    color:var(--secondary-text-color);
+}
+
+/* Features */
+.feature-list .title{
+    color:var(--secondary-text-color);
+}
+
+/*  Team */
+.team-list .title{
+    color:var(--secondary-text-color);
+}
+
+/* Footer */
+.footer .logo{
+    color: var(--white-text-color);
+}
+
+
+/* POREFOLIO */
+/* Project */
+.footer{
+    background-color: var(--accent-bgc);
+}
+.project-list .title{
+    color:var(--secondary-text-color);
+}
+.address .map{
+    color: var(--white-text-color);
+}
+
+.address .contact-link{
+    color: var(--transparent-text-color);
+}
+.address .contact-tel{
+    color: var(--transparent-text-color);
+}
