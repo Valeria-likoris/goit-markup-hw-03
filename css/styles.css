@@ -40,6 +40,8 @@ ol{
     padding-left: 0;
 }
 img{
+    height: auto;
+    max-width: 100%;
     display: block;
 }
 
@@ -85,7 +87,6 @@ body{
 
 }
 .section{
-    background-color: var(--white-color);
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -119,6 +120,7 @@ body{
 .page-header{
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #ECECEC;
 }
 .page-header-container{
     display: flex;
@@ -172,12 +174,13 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.header-mail{
-    margin-right: 50px;
+.contact-item:not(:last-child){
+    margin-right:50px;
 }
 
 /* Hero */
-.hero-container{
+.hero{
+    background-color: var(--accent-bgc);
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -192,8 +195,9 @@ body{
     color: var(--white-color);
 
     margin-bottom: 30px;
-    padding-left: 235px;
-    padding-right: 235px;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
 } 
 .primary-btn{
     font-weight: 700;
@@ -313,9 +317,6 @@ body{
 .address {
     font-style: normal;
     margin-top: 20px;
-
-    display: flex;
-    flex-direction: column;
 }
 
 .map {
