@@ -322,11 +322,11 @@ body{
 .map {
     line-height: 1.71;
     color:var(--white-color);
+}
+
+.address-item:not(:last-child){
     margin-bottom: 9px;
 }
-.footer-mail{
-    margin-bottom: 9px;
-} 
 .contact-link {
     line-height: 1.71;
     color: var(--transparent-text-color);
